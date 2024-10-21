@@ -1,0 +1,21 @@
+{
+  "firstname": "Yurii",
+  "lastname": "Hlushko",
+  "email": "xtxthby1@ukr.net",
+  "telephone": "+380970258279",
+  "fax": "+380666258308",
+  "company": "Qwert",
+  "address_1": "вул. Бориспільська 40",
+  "address_2": "вул. Поліська 10",
+  "city": "Kyiv",
+  "country": "Ukraine",
+  "country_id": "220",
+  "zone": "Kyiv",
+  "zone_id": "3490",
+  "postcode": "02093",
+  "loginname": "xtxthby",
+  "password": "test1",
+  "confirm": "test1"
+}
+
+

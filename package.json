@@ -1,0 +1,25 @@
+{
+  "name": "automationteststore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:allure": "npx cypress run --env allure=true",
+    "allure:generate": "allure generate --clean",
+    "allure:clear": "rm -rf allure-report allure-results cypress/screenshots cypress/videos",
+    "cy:run:auth:smoke": "npx cypress run --browser chrome --env allure=true --spec cypress/e2e/authorization.cy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "cypress": "^13.15.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "@mmisty/cypress-allure-adapter": "^3.2.0"
+  }
+}
