@@ -153,7 +153,7 @@ describe('Avthorization negative scenarias', () => {
 
     cy.visit('/index.php?rt=account/account');
     cy.log('User first name should display on page');
-    accountPage.getFirstNameText().should('contain', user.firstname);
+    AccountPage.getFirstNameText().should('contain', user.firstname);
   })
   it.skip('Authorization without entered username', () => {
     // приклад виклику з --commands-- де ми викликаємо функцію і передаємо параметри
