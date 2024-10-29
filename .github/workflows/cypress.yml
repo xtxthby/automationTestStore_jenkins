@@ -1,5 +1,5 @@
 name: Cypress Tests
-
+run-name: cypress tests in ${{ inputs.browser || 'chrome'}}
 on:
   push:
   workflow_dispatch:
